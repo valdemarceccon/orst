@@ -3,6 +3,10 @@ trait Sorter {
     fn sort<T>(&self, slice: &mut [T]) where T: Ord;
 }
 
+fn main() {
+    
+}
+
 mod bubblesort;
 mod insertionsort;
 mod selectionsort;
